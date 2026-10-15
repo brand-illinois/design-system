@@ -7,14 +7,21 @@ import { Button } from './Button';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 const meta = {
-  title: 'Example/Button',
+  title: 'Components/Button',
   tags: ['autodocs'],
   render: (args) => Button(args),
   argTypes: {
-    backgroundColor: { control: 'color' },
-    size: {
+    backgroundColor: {
+      control: {type: 'select'},
+      options: ['--il-orange', '--il-blue', '--il-white'],
+    },
+    fillColor: {
+      control: {type: 'select'},
+      options: ['orange', 'blue'],
+    },
+    colorTheme: {
       control: { type: 'select' },
-      options: ['small', 'medium', 'large'],
+      options: ['outline', 'solid', 'inverse'],
     },
   },
   args: { onClick: fn() },
@@ -26,27 +33,27 @@ type Story = StoryObj<ButtonProps>;
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
 export const Primary: Story = {
   args: {
-    primary: true,
-    label: 'Button',
+    label: 'Orange Button',
+    backgroundColor: '--il-white',
+    fillColor: 'orange',
+    colorTheme: 'outline',
   },
 };
 
 export const Secondary: Story = {
   args: {
-    label: 'Button',
+    label: 'Secondary Button',
+    backgroundColor: '--il-white',
+    colorTheme: 'solid',
+    fillColor: 'blue',
   },
 };
 
-export const Large: Story = {
+export const Tertiary: Story = {
   args: {
-    size: 'large',
-    label: 'Button',
-  },
-};
-
-export const Small: Story = {
-  args: {
-    size: 'small',
-    label: 'Button',
+    label: 'Tertiary Button',
+    backgroundColor: '--il-blue',
+    fillColor: 'blue',
+    colorTheme: 'inverse'
   },
 };

@@ -1,30 +1,75 @@
-.storybook-button {
+button.ilw-button {
+  background: var(--ilw-color--control);
+  color: var(--ilw-color--control-text);
+  border: 2px solid var(--ilw-color--control-text);
+  font: 700 1.188rem / 1.25rem var(--il-font-sans);
   display: inline-block;
+  margin: 36px;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.25em;
+  letter-spacing: .01em;
+  transition: background-color 0.3s;
   cursor: pointer;
-  border: 0;
-  border-radius: 3em;
-  font-weight: 700;
-  line-height: 1;
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+  &:visited {
+    outline: 0;
+    background: var(--ilw-color--control);
+    color: var(--ilw-color--control-text);
+    border: 2px solid var(--ilw-color--control-text);
+  }
+
+  &:hover {
+    background: var(--ilw-color--control-text);
+    color: var(--ilw-color--control);
+    border-color: var(--ilw-color--control-text);
+    text-decoration: underline;
+  }
+
+  &:focus {
+    background: var(--ilw-color--focus--background);
+    color: var(--ilw-color--focus--text);
+    text-decoration: underline;
+  }
 }
-.storybook-button--primary {
-  background-color: #555ab9;
-  color: white;
+
+button.ilw-button.ilw-theme-blue-solid,
+button.ilw-button.ilw-theme-blue-solid:visited,
+button.ilw-button.ilw-theme-orange-solid,
+button.ilw-button.ilw-theme-orange-solid:visited,
+button.ilw-button.ilw-theme-blue-solid:hover,
+button.ilw-button.ilw-theme-orange-solid:hover {
+  border: 2px solid var(--ilw-color--control);
 }
-.storybook-button--secondary {
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
-  background-color: transparent;
-  color: #333;
+
+button.ilw-button:disabled,
+button.ilw-button:disabled:hover {
+  background-color: white;
+  color: var(--il-storm-lighter-1);
+  border: 2px solid var(--il-storm-lighter-1);
+  outline: none;
+  cursor: initial;
+  text-decoration: none;
 }
-.storybook-button--small {
-  padding: 10px 16px;
-  font-size: 12px;
-}
-.storybook-button--medium {
-  padding: 11px 20px;
-  font-size: 14px;
-}
-.storybook-button--large {
-  padding: 12px 24px;
-  font-size: 16px;
+
+
+.ilw-buttons a[target="_blank"]::after {
+  display: var(--ilw-new-window--display, inline-block);
+  content: var(--ilw-new-window--content, "");
+  mask-image: var(--ilw-new-window--mask-image, url(https://cdn.brand.illinois.edu/icons/solid/blue/link.svg));
+  margin-left: var(--ilw-new-window--margin-left, 0);
+  position: relative;
+  width: var(--ilw-new-window--width, 1em);
+  height: var(--ilw-new-window--height, 1em);
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+  text-decoration: none;
+  vertical-align: middle;
+  background-color: var(--ilw-new-window--background-color, currentColor);
 }

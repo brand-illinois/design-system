@@ -2,6 +2,12 @@ import type { Preview } from '@storybook/web-components-vite'
 
 const preview: Preview = {
   parameters: {
+    docs: {
+      toc: {
+        headingSelector: 'h3',
+        title: 'On this page',
+      }
+    },
     controls: {
       matchers: {
        color: /(background|color)$/i,

@@ -11,20 +11,25 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@illinois-toolkit/ilw-header": "^1.6.0",
     "lit": "^3.3.3"
   },
   "devDependencies": {
-    "typescript": "~6.0.2",
-    "vite": "^8.3.0",
-    "storybook": "^10.6.2",
-    "@storybook/web-components-vite": "^10.6.2",
     "@chromatic-com/storybook": "latest",
-    "@storybook/addon-vitest": "^10.6.2",
+    "@illinois-toolkit/ilw-core": "^2.1.0",
+    "@illinois-toolkit/ilw-footer": "^1.5.5",
     "@storybook/addon-a11y": "^10.6.2",
     "@storybook/addon-docs": "^10.6.2",
-    "vitest": "latest",
+    "@storybook/addon-measure": "^9.0.8",
+    "@storybook/addon-viewport": "^9.0.8",
+    "@storybook/addon-vitest": "^10.6.2",
+    "@storybook/web-components-vite": "^10.6.2",
     "@vitest/browser-playwright": "latest",
     "@vitest/coverage-v8": "latest",
-    "playwright": "latest"
+    "playwright": "latest",
+    "storybook": "^10.6.2",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vitest": "latest"
   }
 }

@@ -1,58 +1,47 @@
 import { html } from 'lit';
 
-import { Button } from './Button';
-import './header.css';
+import './colors.css';
+import './button.css';
 
-type User = {
-  name: string;
-};
 
-export interface HeaderProps {
-  user?: User;
-  onLogin?: () => void;
-  onLogout?: () => void;
-  onCreateAccount?: () => void;
+
+export interface ButtonProps {
+
+  /** What background color to use */
+  backgroundColor?: 'orange' | 'blue' ;
+  /** What theme should the button be? */
+  colorTheme?: 'outline' | 'solid' | 'inverse';
+  /** Button contents */
+  label: string;
+  /** Optional click handler */
+  onClick?: () => void;
 }
+/** Primary UI component for user interaction */
+export const Button = ({ backgroundColor, colorTheme, label, onClick }: ButtonProps) => {
 
-export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps) => html`
-  <header>
-    <div class="storybook-header">
-      <div>
-        <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-          <g fill="none" fillRule="evenodd">
-            <path
-              d="M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z"
-              fill="#FFF"
-            />
-            <path
-              d="M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z"
-              fill="#555AB9"
-            />
-            <path
-              d="M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z"
-              fill="#91BAF8"
-            />
-          </g>
-        </svg>
-        <h1>Acme</h1>
-      </div>
-      <div>
-        ${
-          user
-            ? Button({ size: 'small', onClick: onLogout, label: 'Log out' })
-            : html`${Button({
-                size: 'small',
-                onClick: onLogin,
-                label: 'Log in',
-              })}
-            ${Button({
-              primary: true,
-              size: 'small',
-              onClick: onCreateAccount,
-              label: 'Sign up',
-            })}`
-        }
-      </div>
-    </div>
-  </header>
-`;
+  return html`
+     <ilw-header id="example-header--docs">
+      <a href="${primaryUnitLink}" slot="primary-unit">
+        ${primaryUnit}
+      </a>
+
+      <a href="${siteNameLink}" slot="site-name">
+        ${siteName}
+      </a>
+
+
+      ${search ? `<form slot="search" method="get" action="/search" role="search">
+        <input type="search" name="search" aria-labelledby="search-button">
+        <button id="search-button" type="submit" aria-label="Search this site"></button>
+      </form>` : ''}
+
+      ${utility ? `<nav slot="links" aria-label="Utility">
+        <ul>
+          <li><a href="${utilitySlotLink1}">${utilitySlotName1}</a></li>
+          <li><a href="${utilitySlotLink2}">${utilitySlotName2}</a></li>
+          <li><a href="${utilitySlotLink3}">${utilitySlotName3}</a></li>
+        </ul>
+      </nav>` : ''}
+    </ilw-header>
+  `;
+};
