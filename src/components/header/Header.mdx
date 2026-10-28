@@ -1,0 +1,88 @@
+import { Meta, Canvas } from '@storybook/addon-docs/blocks';
+import * as HeaderStories from './Header.stories';
+
+<Meta of={HeaderStories} />
+
+# Header
+
+The Required Header establishes Illinois branding and provides consistent navigation across websites.
+
+## Preview
+
+<Canvas of={HeaderStories.Default} />
+
+
+## 1.1 Position of the header
+- The header touches the top, left, and right sides of the viewport. There should not be any page content above or to the sides of the header. 
+
+## 1.2 Responsiveness and breakpoints
+The header has three display modes, based on viewport width:
+- Desktop: 990px wide and above
+- Tablet: 600-989px wide
+- Phone: up to 599px wide 
+
+## 1.3 The top stripe
+ The top stripe is il-orange, 8px thick and runs the full width of the viewport.
+
+## 1.4 Header components
+There are 5 header components below the top stripe. This section is always positioned in the center of the screen, with a maximum width and height of 1140px and 137px, respectively. Clockwise from the top-left corner, this section contains:
+- branding
+- feature links
+- search
+- the site name
+- the primary unit name
+
+### 1.4.1 Branding
+The branding component is in the top-left corner of the header. 
+The branding component has 2 distinct but connected parts that link to the campus homepage, Illinois.edu:
+- The Block I
+- The campus text
+
+#### 1.4.1.1 The Block I
+Size: The Block I is 22px wide by 31px tall. It is il-orange with a 1px white outline. The block I is centered inside an il-blue box that is 44px wide by 51px tall. 
+<br />Position: The box touches the top of the viewport and is on top (z-axis) of the top stripe. It is positioned no less than 20px from the left edge of the viewport.
+##### --- Modifications ---
+On Hover: The block I becomes il-orange with a 1px blue outline on a white box.
+<br />On Focus: The block I becomes il-orange with a 1px blue outline on an Il-arches-90 background. The box now has a 2px il-blue border. 
+
+#### 1.4.1.2 The campus text
+Size: The campus text contains the words, "UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN" in all capital letters. It is set font-weight of 700 in font-size 14px Montserrat in Il-blue.
+<br />Position: The campus text is positioned 8px from the left edge of the blue box. It is 13px from the bottom of the top stripe, centered top and bottom with the blue box.
+##### --- Modifications ---
+On Hover: The color becomes Il-Altgeld and the text is underlined
+<br />On Focus: An il-blue 4px bottom border is added and the background becomes il-arches-90.
+<br />Mobile Breakpoint: The campus text is hidden on viewports less than 599px wide.
+
+#### 1.4.2 Feature Links
+Size: There are 3 link slots to add custom featured links. These links are set in 16px, Source Sans at 600 weight, in Il-blue. They are separated by an Il-orange vertical line 2px wide and 14px tall. These bars have 7px of blank space to their left and right.  
+Position: Links are positioned in the top-right section of the header. They are 6px from the bottom of the top stripe and aligned to the right of the screen, ending no less than 30px from the right edge of the viewport.
+##### --- Modifications ---
+<br />On Hover: The color becomes Il-Altgeld and the text is underlined
+<br />On Focus: An il-blue 4px bottom border is added and the background becomes il-arches-90.
+<br />Tablet and Mobile Breakpoint: Moved into the collapsed navigation menu on viewports less than 990px.
+
+### 1.4.3 Search
+Size: Search is comprised of an input box and button. The input box is 230px wide and 42px tall with a 2px border that is il-storm and a left border-radius of .25em. If placeholder text is used within the input box it is set at 16px, Source Sans, italicized. 
+There is a straight vertical line dividing the input box and button. 
+The button is 60px wide and 42px tall with a right border-radius of .25em. The total width and height of the search is 290px and 36px respectively. Centered in the button is a 16 by 14px magnifying glass icon in il-blue. Optionally you can add the word "search" to the right of the icon. 
+<br />Position: Search is positioned 63px below the top stripe and aligned to the right of the screen, ending no less than 30px from the right edge of the viewport.
+##### --- Modifications ---
+Active input box: The insertion caret color and text are 16px and il-blue. There is a blue "x" icon users can click to clear the box. 
+<br />On Hover: For input, the cursor will change to the type cursor except when hovering over the "x". For the button the cursor will change to the pointer and any text is underlined.
+<br />On Focus: For input a 1px outline in il-blue is added. For the button, a 1px outline in il-blue is added and the button fill becomes il-arches-90 and any text is underlined. 
+<br />Tablet and Mobile Breakpoint: Moved into the collapsed navigation menu on viewports less than 990px. 
+
+### 1.4.4 Site name
+Size: The site name clearly labels the site you are visiting and always links back to the homepage of the current site. It is set in 24px Source Sans, 700 weight in Il-blue.  
+Position: The site name always aligns to the left edge of the Branding Block I above it, no less than 40px away from the left edge of the viewport. With no primary unit the site name starts 16px below the blue block I box. 
+##### --- Modifications ---
+On Hover: The color becomes Il-Altgeld and the text is underlined
+<br />On Focus: An il-blue 4px  bottom border is added and the background becomes il-arches-90.
+
+### 1.4.5 Primary unit name
+Size: The primary unit name is set in 18px Source Sans, in Il-blue and always links to the primary unit's website homepage.	
+<br />Position: Aligns to the left edge of the Branding Block I above it, no less than 40px away from the left edge of the viewport. It starts 16px below the blue block I box. 
+##### --- Modifications ---
+**On Hover:** The color becomes Il-Altgeld and the text is underlined
+<br />On Focus: An il-blue 4px bottom border is added and the background becomes il-arches-90.
+
