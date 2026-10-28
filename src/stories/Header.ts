@@ -5,7 +5,7 @@ import './button.css';
 
 
 
-export interface ButtonProps {
+export interface HeaderProps {
 
   /** What background color to use */
   backgroundColor?: 'orange' | 'blue' ;
@@ -17,7 +17,7 @@ export interface ButtonProps {
   onClick?: () => void;
 }
 /** Primary UI component for user interaction */
-export const Button = ({ backgroundColor, colorTheme, label, onClick }: ButtonProps) => {
+export const Header = ({ backgroundColor, colorTheme, label, onClick }: HeaderProps) => {
 
   return html`
      <ilw-header id="example-header--docs">
