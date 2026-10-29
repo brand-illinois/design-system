@@ -1,4 +1,4 @@
-import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{n as t,o as n,s as r}from"./blocks-BLBHMmiF.js";import{i,r as a}from"./react-CP-mEjap.js";import{a as o}from"./chunk-W22LQPXL-CRUKs0UM.js";import{n as s,r as c,t as l}from"./Header.stories-D0mj_1cw.js";function u(e){let r={br:`br`,h1:`h1`,h2:`h2`,h3:`h3`,h4:`h4`,h5:`h5`,li:`li`,p:`p`,strong:`strong`,ul:`ul`,...i(),...e.components};return(0,f.jsxs)(f.Fragment,{children:[(0,f.jsx)(n,{of:s}),`
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{n as t,o as n,s as r}from"./blocks-pnlFhLzT.js";import{n as i,r as a}from"./lib-ouL6m4Iq.js";import{t as o}from"./jsx-runtime-MKhVqBIO.js";import{n as s,r as c,t as l}from"./Header.stories-BXVQF_Rq.js";function u(e){let r={br:`br`,h1:`h1`,h2:`h2`,h3:`h3`,h4:`h4`,h5:`h5`,li:`li`,p:`p`,strong:`strong`,ul:`ul`,...a(),...e.components};return(0,f.jsxs)(f.Fragment,{children:[(0,f.jsx)(n,{of:s}),`
 `,(0,f.jsx)(r.h1,{id:`header`,children:`Header`}),`
 `,(0,f.jsx)(r.p,{children:`The Required Header establishes Illinois branding and provides consistent navigation across websites.`}),`
 `,(0,f.jsx)(r.h2,{id:`preview`,children:`Preview`}),`
@@ -73,4 +73,4 @@ The button is 60px wide and 42px tall with a right border-radius of .25em. The t
 `,(0,f.jsx)(`br`,{}),`Position: Aligns to the left edge of the Branding Block I above it, no less than 40px away from the left edge of the viewport. It starts 16px below the blue block I box.`]}),`
 `,(0,f.jsx)(r.h5,{id:`----modifications-----5`,children:`--- Modifications ---`}),`
 `,(0,f.jsxs)(r.p,{children:[(0,f.jsx)(r.strong,{children:`On Hover:`}),` The color becomes Il-Altgeld and the text is underlined
-`,(0,f.jsx)(`br`,{}),`On Focus: An il-blue 4px bottom border is added and the background becomes il-arches-90.`]})]})}function d(e={}){let{wrapper:t}={...i(),...e.components};return t?(0,f.jsx)(t,{...e,children:(0,f.jsx)(u,{...e})}):u(e)}var f;function p(){return(p=e((()=>{f=o(),a(),r(),c()})))()}p();export{d as default};
+`,(0,f.jsx)(`br`,{}),`On Focus: An il-blue 4px bottom border is added and the background becomes il-arches-90.`]})]})}function d(e={}){let{wrapper:t}={...a(),...e.components};return t?(0,f.jsx)(t,{...e,children:(0,f.jsx)(u,{...e})}):u(e)}var f;function p(){return(p=e((()=>{f=o(),i(),r(),c()})))()}p();export{d as default};
