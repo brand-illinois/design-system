@@ -4,7 +4,7 @@ import type { Story } from '@storybook/web-components';
 
 
 const meta = {
-  title: 'Components/Required/Footer',
+  title: 'Required Elements/Footer',
   tags: ['autodocs'],
   render: (args) => Footer(args),
   argTypes: {
