@@ -1,4 +1,4 @@
-import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{n as t,o as n,s as r}from"./blocks-pnlFhLzT.js";import{n as i,r as a}from"./lib-ouL6m4Iq.js";import{t as o}from"./jsx-runtime-MKhVqBIO.js";import{n as s,r as c,t as l}from"./footer.stories-DTTQShjG.js";function u(e){let r={h1:`h1`,h2:`h2`,p:`p`,...a(),...e.components};return(0,f.jsxs)(f.Fragment,{children:[(0,f.jsx)(n,{of:s}),`
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{n as t,o as n,s as r}from"./blocks-pnlFhLzT.js";import{n as i,r as a}from"./lib-ouL6m4Iq.js";import{t as o}from"./jsx-runtime-MKhVqBIO.js";import{n as s,r as c,t as l}from"./footer.stories-v822wQOp.js";function u(e){let r={h1:`h1`,h2:`h2`,p:`p`,...a(),...e.components};return(0,f.jsxs)(f.Fragment,{children:[(0,f.jsx)(n,{of:s}),`
 `,(0,f.jsx)(r.h1,{id:`footer`,children:`Footer`}),`
 `,(0,f.jsx)(r.p,{children:`The Required Footer establishes Illinois branding and provides consistent resources across websites.`}),`
 `,(0,f.jsx)(r.h2,{id:`preview`,children:`Preview`}),`

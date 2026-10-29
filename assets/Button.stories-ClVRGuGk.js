@@ -1,8 +1,8 @@
-import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{a as t}from"./lit-element-1Xs4BQq_.js";import{n}from"./iframe-BEELpty6.js";var r;function i(){return(i=e((()=>{n(),r=({backgroundColor:e,fillColor:n,colorTheme:r,label:i,onClick:a})=>t`
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{n as t,o as n}from"./iframe-B6ZPA86g.js";var r;function i(){return(i=e((()=>{t(),r=({backgroundColor:e,fillColor:t,colorTheme:r,label:i,onClick:a})=>n`
   <div style="background-color: var(${e})">
     <button
       type="button"
-      class=${[`ilw-button`,`ilw-theme-${n}-${r}`].join(` `)}
+      class=${[`ilw-button`,`ilw-theme-${t}-${r}`].join(` `)}
       @click=${a}
     >
       ${i}
