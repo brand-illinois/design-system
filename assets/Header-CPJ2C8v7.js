@@ -1,4 +1,4 @@
-import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{n as t,o as n,s as r}from"./blocks-pnlFhLzT.js";import{n as i,r as a}from"./lib-ouL6m4Iq.js";import{t as o}from"./jsx-runtime-MKhVqBIO.js";import{n as s,r as c,t as l}from"./Header.stories-Di56Xt06.js";function u(e){let r={br:`br`,h1:`h1`,h2:`h2`,h3:`h3`,h4:`h4`,h5:`h5`,li:`li`,p:`p`,strong:`strong`,ul:`ul`,...a(),...e.components};return(0,f.jsxs)(f.Fragment,{children:[(0,f.jsx)(n,{of:s}),`
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{n as t,o as n,s as r}from"./blocks-pnlFhLzT.js";import{n as i,r as a}from"./lib-ouL6m4Iq.js";import{t as o}from"./jsx-runtime-MKhVqBIO.js";import{n as s,r as c,t as l}from"./Header.stories-7EiQ8e_J.js";function u(e){let r={br:`br`,h1:`h1`,h2:`h2`,h3:`h3`,h4:`h4`,h5:`h5`,li:`li`,p:`p`,strong:`strong`,ul:`ul`,...a(),...e.components};return(0,f.jsxs)(f.Fragment,{children:[(0,f.jsx)(n,{of:s}),`
 `,(0,f.jsx)(r.h1,{id:`header`,children:`Header`}),`
 `,(0,f.jsx)(r.p,{children:`The Required Header establishes Illinois branding and provides consistent navigation across websites.`}),`
 `,(0,f.jsx)(r.h2,{id:`preview`,children:`Preview`}),`

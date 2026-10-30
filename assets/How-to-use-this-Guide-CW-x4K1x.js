@@ -5,4 +5,4 @@ import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{n as t,r as n}from"./l
 `,(0,o.jsx)(t.li,{children:`Click on the ruler icon in the top menu bar to enable a spacing guide that displays the padding between elements.`}),`
 `,(0,o.jsx)(t.li,{children:`Hover over each element to see a dynamic pop-up for sizing. This is similar to the experience in developer inspect tools.`}),`
 `]}),`
-`,(0,o.jsx)(t.p,{children:`Please see the controls menu at the bottom of this screen to change the elements and see the updated spacing.`})]})}function a(e={}){let{wrapper:t}={...n(),...e.components};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(i,{...e})}):i(e)}var o;function s(){return(s=e((()=>{o=r(),t()})))()}s();export{a as default};
+`,(0,o.jsx)(t.p,{children:`Please see the controls menu at the bottom of the demo screen to change the elements and see the updated spacing.`})]})}function a(e={}){let{wrapper:t}={...n(),...e.components};return t?(0,o.jsx)(t,{...e,children:(0,o.jsx)(i,{...e})}):i(e)}var o;function s(){return(s=e((()=>{o=r(),t()})))()}s();export{a as default};

@@ -1,4 +1,4 @@
-import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{n as t,o as n}from"./iframe-B6ZPA86g.js";var r;function i(){return(i=e((()=>{t(),r=({backgroundColor:e,fillColor:t,colorTheme:r,label:i,onClick:a})=>n`
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{n as t,o as n}from"./iframe-sCeAGIkY.js";var r;function i(){return(i=e((()=>{t(),r=({backgroundColor:e,fillColor:t,colorTheme:r,label:i,onClick:a})=>n`
   <div style="background-color: var(${e})">
     <button
       type="button"
