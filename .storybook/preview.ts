@@ -7,6 +7,9 @@ const preview: Preview = {
         headingSelector: 'h2, h3, h4',
         title: 'On this page',
       },
+      canvas: {
+        sourceState: 'none',
+      },
     },
 
     controls: {

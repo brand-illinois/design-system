@@ -61,10 +61,12 @@ export const Footer = ({
         MC-0000<br>
         Champaign, IL 61820</p>
       <p>Email: <a href="mailto:address@example.com">address@example.com</a></p>
-      <p>Phone: <a href="tel:+12175551234" aria-label="Example Site Office">(217) 555-1234</a></p>
+      <p>Phone: <a href="tel:+12175551234" aria-label="Example Site Office">217-555-1234</a></p>
     </address>
  
     <div>
+       <ilw-columns>
+       <div>
        
 					<nav class="ilw-footer-menu" aria-labelledby="menu-1">
 					<h2 id="menu-1">Connect</h2>
@@ -75,6 +77,10 @@ export const Footer = ({
               <li><a href="#">Directory</a></li>
             </ul>
 					</nav>
+          </div>
+          <div>
+          </ilw-columns>
+          <ilw-columns>
           <nav class="ilw-footer-menu" aria-labelledby="menu-2">
 					<h2 id="menu-2">Resources</h2>
             <ul>
@@ -84,7 +90,8 @@ export const Footer = ({
               <li><a href="#">Canvas</a></li>
             </ul>
 					</nav>
-							
+							</div>
+    </ilw-columns>
     </div>
 
 
