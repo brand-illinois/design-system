@@ -2,6 +2,18 @@ import type { Preview } from '@storybook/web-components-vite';
 
 const preview: Preview = {
   parameters: {
+    options:{
+      storySort: {
+        order: [
+          'How-to-use-this-Guide',
+          'Required Elements',
+          ['Header'],
+          ['Footer'],
+          'Components',
+          ['Button'],
+        ],
+      },
+    },
     docs: {
       toc: {
         headingSelector: 'h2, h3, h4',
