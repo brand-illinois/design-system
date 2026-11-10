@@ -6,6 +6,7 @@ const preview: Preview = {
       storySort: {
         order: [
           'How-to-use-this-Guide',
+          'Changelog',
           'Required Elements',
           ['Header'],
           ['Footer'],
