@@ -1,6 +1,7 @@
-import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{n as t,o as n,s as r}from"./blocks-pnlFhLzT.js";import{n as i,r as a}from"./lib-ouL6m4Iq.js";import{t as o}from"./jsx-runtime-MKhVqBIO.js";import{n as s,r as c,t as l}from"./footer.stories-heRFEGVc.js";function u(e){let r={a:`a`,h1:`h1`,h2:`h2`,h3:`h3`,h4:`h4`,h5:`h5`,h6:`h6`,li:`li`,p:`p`,ul:`ul`,...a(),...e.components};return(0,f.jsxs)(f.Fragment,{children:[(0,f.jsx)(n,{of:s}),`
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{n as t,o as n,s as r}from"./blocks-pnlFhLzT.js";import{n as i,r as a}from"./lib-ouL6m4Iq.js";import{t as o}from"./jsx-runtime-MKhVqBIO.js";import{n as s,r as c,t as l}from"./footer.stories-C60CjYXi.js";function u(e){let r={a:`a`,h1:`h1`,h2:`h2`,h3:`h3`,h4:`h4`,h5:`h5`,h6:`h6`,li:`li`,p:`p`,ul:`ul`,...a(),...e.components};return(0,f.jsxs)(f.Fragment,{children:[(0,f.jsx)(n,{of:s}),`
 `,(0,f.jsx)(r.h1,{id:`footer`,children:`Footer`}),`
-`,(0,f.jsxs)(r.p,{children:[`The Required Footer establishes `,(0,f.jsx)(r.a,{href:`https://brand.illinois.edu/`,rel:`nofollow`,children:`Illinois branding`}),` and provides consistent university resources across websites. All color variables described in this documentation can be found within the collection of `,(0,f.jsx)(r.a,{href:`https://web.brand.illinois.edu/`,rel:`nofollow`,children:`hosted brand assets`}),` also known as a content delivery network (CDN).`]}),`
+`,(0,f.jsxs)(r.p,{children:[`The Required Footer establishes `,(0,f.jsx)(r.a,{href:`https://brand.illinois.edu/`,rel:`nofollow`,children:`Illinois branding`}),` and provides consistent university resources across websites. All color variables described in this documentation can be found within the collection of `,(0,f.jsx)(r.a,{href:`https://web.brand.illinois.edu/`,rel:`nofollow`,children:`hosted brand assets`}),` also known as a content delivery network (CDN).
+Any additions or subtractions to what is outlined here will be considered non-compliant to the Illinois brand unless your customizations have been officially approved by email to branding@illinois.edu.`]}),`
 `,(0,f.jsx)(r.h2,{id:`preview`,children:`Preview`}),`
 `,(0,f.jsx)(t,{of:l}),`
 `,(0,f.jsx)(r.h2,{id:`31-position-of-the-footer`,children:`3.1 Position of the footer`}),`
@@ -60,8 +61,9 @@ Position: The primary unit and other parent units are always left-aligned with t
 `,(0,f.jsx)(r.p,{children:`On Hover: The text color is il-Altgeld and is underlined.`}),`
 `,(0,f.jsx)(r.p,{children:`On Focus: An il-blue 4px bottom border is added and the background becomes il-arches-90.`}),`
 `,(0,f.jsx)(r.h5,{id:`34115-partner-logos`,children:`3.4.1.1.5 Partner Logos`}),`
-`,(0,f.jsx)(r.p,{children:`Size: Approved partner logos may appear within a xxxPX by xxxPX size.
-Position: The logos should all be placed above/below the site name in the left-hand column of the upper footer. With Xpxs of space above or below the logo. Images should not appear in any other part of the footer.`}),`
+`,(0,f.jsx)(r.p,{children:`All partner logos should be approved by Strategic Communications and Marketing via email to branding@illinois.edu before being placed in the footer.`}),`
+`,(0,f.jsx)(r.p,{children:`Size: Approved partner logos may appear no larger than 225px tall and 375px wide.
+Position: The logos should all be placed above/below the site name in the left-hand column of the upper footer. With 48pxs of space between the logo and the site contact information. Images should not appear in any other part of the footer.`}),`
 `,(0,f.jsx)(r.h5,{id:`----modifications-----3`,children:`--- Modifications ---`}),`
 `,(0,f.jsx)(r.p,{children:`Make sure that your logos are accessible on dark mode. If they are linked to another site ensure there is accessible hover and focus states as well as accessible labels or alt text.`}),`
 `,(0,f.jsx)(r.h4,{id:`3412--buttons-and-quick-navigation-lists`,children:`3.4.1.2  Buttons and Quick navigation lists`}),`
