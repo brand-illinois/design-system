@@ -12,13 +12,19 @@ const meta: Meta = {
     siteName: 'Sample Site Name',
     siteNameLink: 'https://brand.illinois.edu/',
     search: true,
-    cta: true,
+    cta1: true,
+    cta2: true,
+    cta3: true,
     ctaSlotName1: 'Apply',
     ctaSlotLink1: '/apply',
     ctaSlotName2: 'Visit',
     ctaSlotLink2: '/visit',
     ctaSlotName3: 'Give',
     ctaSlotLink3: '/give',
+    column1: true,
+    column2: true,
+    column3: true,
+    column4: true
   },
 };
 
