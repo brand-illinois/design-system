@@ -62,9 +62,9 @@ export const Footer = ({
     <address slot="address">
       <p>5678 West Example Street<br>
         MC-0000<br>
-        Champaign, IL 61820</p>
-      <p>Email: <a href="mailto:address@example.com">address@example.com</a></p>
-      <p>Phone: <a href="tel:+12175551234" aria-label="Example Site Office">217-555-1234</a></p>
+        Champaign, IL 61820</p>      
+        <p><a href="tel:+12175551234"><span class="ilw-sr-only">Call the Example Site Office at</span>217-555-1234</a></p>
+        <p><a href="mailto:address@example.com"><span class="ilw-sr-only">Email the Example Site Office at</span>address@example.com</a></p>
     </address>
  
  <a href="${primaryUnitLink}" slot="primary-unit">
