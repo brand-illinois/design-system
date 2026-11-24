@@ -1,0 +1,114 @@
+import { Meta, Canvas } from '@storybook/addon-docs/blocks';
+import * as MenuStories from './menu.stories';
+
+<Meta of={MenuStories} />
+
+# Menu
+The Menu establishes [Illinois branding](https://brand.illinois.edu/) and provides consistent top level navigation across websites. All color variables described in this documentation can be found within the collection of [hosted brand assets](https://web.brand.illinois.edu/) also known as a content delivery network (CDN).
+
+## Preview
+
+<Canvas of={MenuStories.Default} />
+
+## 2.1 Position of the main navigation menu
+- The menu touches the bottom of the header and the left, and right sides of the viewport. There should not be any page content between the header and the menu. 
+
+## 2.2 Responsiveness and breakpoints 
+The navigation has three display modes, based on viewport width:
+
+- Desktop: 990px wide and above.
+- Tablet: 600-989px wide — The menu is collapsed into a "hamburger menu" button.
+- Phone: up to 599px wide — The menu is collapsed into a condensed "hamburger menu" button.
+
+
+## 2.3 The menu elements
+The required elements of the menu are:
+- Gray background bar
+- Linked text 
+- Chevron arrow (if applicable)
+- Dropdown element (if applicable)
+
+## 2.3 Gray background bar
+**Size:** The menu bar spans the full width of the viewport on desktop and is 44px tall. It has an il-storm-92#E8E9EB background color. 
+<br />**Position:** The menu bar is placed 20px below the website header's site name.
+<br /> **--- Modifications ---**<br /> 
+**Tablet and Mobile:** The gray bar is replaced with a 2px il-storm-92 #E8E9EB border that spans the width of the viewport 20px below the website header's site name.
+
+## 2.4 Menu Items
+**Size:** All menu text is set in Source Sans at 16px and 700 font weight in il-blue. There is 20px of padding to the left and right of the text with 6px of padding on the top and bottom. There is an additional 4px of space reserved for a border on the bottom.
+<br />**Position:** The first menu item text is aligned with the site name above it, no closer than 30px from the edge of the viewport width. Each additional menu item is placed horizontally to the right of the one before it. The container holding the menu has a maximum width of 1158px. If your items exceed the width of the menu container, secondary words will begin wrapping to the next line.
+<br /> **--- Modifications ---**<br /> 
+**-- On items with a single link or single dropdown function**
+<br /> **Hover or expanded dropdown:** The full 40px x 16px (plus the text content) space receives a white background with the 4px il-orange bottom border. The linked text becomes il-Altgeld with an underline. 
+<br /> **Expanded dropdown and hover:** The full 40px x 16px (plus the text content) space receives a white background with the 4px il-orange bottom border. The linked text becomes il-blue with an underline. 
+<br /> **Focus and Active click:** The text becomes il-blue, the bottom border becomes il-blue, and the background becomes il-arches-90.
+<br /> **-- On Items that use a combination of independent link and dropdown clicks (flyout menu only)**
+<br /> **Hover or Expanded and hover:** The full 40px x 16px background is white, the text becomes il-Altgeld and underlined, and the bottom-border is 3px and il-blue.
+<br /> **Expanded:** The text and background has no changes; see the combination chevron below.
+<br /> **Expanded dropdown and hover:** The full 40px x 16px (plus the text content) space receives a white background with the 4px il-orange bottom border. The linked text becomes il-blue with an underline. 
+<br /> **Focus and active click:** The text becomes il-blue, the bottom border becomes il-blue, and the background becomes il-arches-90 split under the text only.
+<br /> **Vertical text variation:** The dropdown and flyout and mobile menu items are collapsed into a menu toggle. In this toggle, the menu items are stacked vertically instead. It maintains 20px of padding on the left and right and 6px to the top and bottom. The border moves to the left instead of the bottom in this version. The border is 3px and il-orange on hover.
+<br /> **On items with a single link or single dropdown function; Hover:** The background is white, the text becomes il-Altgeld and underlined, and the left-border is 3px and il-orange. 
+<br /> **On items that use a combination of independent link and dropdown clicks; Hover:** The background is white, the text becomes il-Altgeld and underlined, and the left-border is 3px and il-orange. 
+<br /> **On Focus and Active click:** The text becomes il-blue, the left border becomes il-blue, and the background becomes il-arches-90.
+<br /> **Tablet and Mobile:** Below 900px — When displayed, each menu item takes up the full width of the viewport and uses the vertical text variation for all levels of the menu. 
+
+## 2.5 Chevron arrow (if applicable)
+The official Illinois chevron arrow should be used when adding a dropdown element to your top level or flyout level menu items. Dropdown arrows can function independently of a linked landing page item it is next to, or the entire text and icon could function to expand the dropdown, depending on your needs. Icons cannot be used without a label. If the entire item and label is a button, all the modified states should happen in unison with the text modified states. 
+**Size:** The icon should be 18px by 18px in il-blue. It is grouped with the menu item text and is counted toward the entire content width of the button. There is 20px of padding to the left and right of the menu item text and icon with 6px of padding on the top and bottom. There is an additional 4px of space reserved for a border on the bottom.
+<br />**Position:** This icon should be oriented where the point is going downward. It's placed inside the menu button with a 4px gap to the right of any menu items text that functions as a dropdown.
+<br /> **--- Modifications ---**<br /> 
+
+**-- On items with a single dropdown function**
+<br /> **Hover:** the icon should become il-altgeld with a 2px dotted outline. The entire label and icon (menu item) background is white with a 3px il-orange bottom border.
+<br /> **Focus:** The icon itself remains il-blue within the il-arches-90 background change.
+<br /> **Focus while Hover:** Everything from the regular focus state with the addition of a 2px dotted outline.
+
+<br /> **Expanded:** The icon should rotate 180 degrees with no animation.
+<br /> **-- On items that use a combination of independent link and dropdown clicks (flyout menu only)**
+<br /> **Hover:** the icon should become il-altgeld with a 2px dotted outline. The entire label and icon (menu item) background is white with a 3px il-blue bottom border.
+<br /> **Focus and Active click:** The icon becomes il-blue and split under the text only, the bottom border becomes il-blue with the background in il-arches-90.
+<br /> **Focus while Hover:** The icon should become il-blue with a 2px dotted outline in il-Altgeld. The background behind the label is white and split behind the icon the background is il-arches. The grouped menu item has a 3px il-blue bottom border.
+
+<br /> **Expanded:** The icon should be pointed up, and its color should be il-Altgeld. Behind only the icon split, the background should be white.
+<br /> **Expanded and Focus:** The icon should be pointed up, and its color should be il-Altgeld, the bottom border becomes il-orange, and the background becomes white behind only the icon. Behind only the icon split, the background should be white.
+<br />**Expanded and Hover:** The icon should be pointed up, and its color should be il-Altgeld with a 2px dotted outline in il-Altgeld, the bottom border becomes il-blue, and the background becomes white behind both the label and the icon.
+<br />**Additional Keyboard Functionality:** Using the left and right arrow keys should collapse a dropdown element and move to the next top-level item. When focused on a top-level item with a dropdown, the spacebar, enter button, and down arrow can expand the dropdown content. Once focus is inside the dropdown items, the up and down arrows can only move within the expanded dropdown items, stopping at the top or bottom of the list. The Escape key always closes a dropdown. When a dropdown is closed, focus always returns to the closest top-level navigation item.
+<br />**Flyout Chevrons:** Second and third level nested menu item dropdowns use all the same designs as described above, except they should be aligned right (still 20px away from the right, 10px of padding on the left) and pointing to the right when collapsed and to the left when expanded. 
+
+
+## 2.6 Dropdown elements
+Dropdown containers come in two variations:
+
+- Flyout
+- Mega Menu
+
+2.6.1 Flyout
+Flyout menus can be nested up to three levels deep.
+**Size:** Each dropdown item starts at 248px wide and 34px tall. The text is set in 16px, Source Sans, and font-weight 700. Text should be left-aligned 24px away from the edge, with four of those pixels reserved for a left-hand border. The list of items is grouped together in 16px on the top or bottom of each text item. Additional dropdown items get added to the bottom of the list growing the height of the whole flyout menu. 
+<br />**Position:** First-level dropdowns are placed directly beneath edge the parent item bottom border. The container is left-aligned with the parent item's background padding. Second and third level flyout menus appear to the right of the parent flyout, matching alignment with the height of its parent padding. 
+<br /> **--- Modifications ---**<br /> 
+**On Hover:** A 4px il-orange left-border should appear, and the text should be il-altgeld and underlined.
+<br />**On Focus:** A 4px il-blue border should be used with a background of il-arches-90.
+<br />**Hover and Focus:** A 4px il-blue border should be used with a background of il-arches-90. The text should be underlined.
+<br />**Expanded, second and third levels:** These always appear to the right of the nested item. Aligned to the left and top edge of the parent. 
+
+2.6.2 Mega Menu
+The mega menu only allows for a dropdown or a linked item; no combination can be used. If you need more than two levels of nested links, a flyout menu is recommended. In the Illinois mega menu, you can utilize links, photos, and a call-to-action element. Images should only be included if they are 100% decorative, meaning they contain no text or contextual information. There are a maximum of four columns allowed, and each column that contains items is divided by a solid 2px il-storm-85 line. Buttons within a call-to-action should use aria-labelledby if you include a heading
+**Size:** The mega menu container has a max width of 1270px. Each column within has a maximum width of 317px. Once the edges of the mega menu touch the viewport width, the columns make up an even 1/4 of the screen to a minimum of 247.5px before breaking to the vertical menu layout. The height is dependent on the content within. First-level links inside the menu are set in 16px, Source Sans, at 700 weight. Nested link text is the same set except the weight is 400.
+<br />**Position:** The left edge of the mega menu container is placed 50px away from the left edge of the top-level menu item text or 30px to the left of the first menu item group "button." The link text within should have the same 20px by 6px padding on each item, with a 4px transparent border used for focus. The first linked items will always be left aligned to the first item text in the menu. Linked items are 50px away from the edge of the container or the column dividing line. Nested items are 80px from the edge of the container or the column dividing line. Images and call-to-action elements must stay within a 36px edge of their column. These two elements can be combined to take up multiple column widths.
+
+
+<br /> **--- Modifications ---**<br /> 
+**On Hover:** Text links become il-Altgeld and underlined. Buttons reverse fill color with the text color and receive an underline. 
+<br />**On Focus:** Linked elements get a background fill of il-arches-90 and a 4px bottom border in il-blue. Button focus receives a border and text color of il-blue with underlined text and fill of il-arches-90.
+<br />**Mobile and Tablet:** The layout of the mega menu should condense to the vertical menu described in 2.4. The parent item is 24px from the edge of the viewport, the first child under the parent is 44px from the left, and additional nested links are 69px from the edge of the viewport (all of these include a 4px transparent border to be colored on hover).
+
+1.7 Hamburger menu button
+The hamburger menu has two variations — one for tablet and mobile.
+**Size:** On tablet, it should be a 99px width by 36px height il-blue button with the official Illinois "menu" icon next to the word "menu" in all caps. On mobile, a 38px by 38px il-blue button with just the icon should display. This button should maintain an accessible label with aria-expand and collapse functions. Both versions include a 2px solid il-blue border in their respective sizes.
+<br />**Position:** The button replaces the search component in the header, right-aligned, 20px above the gray border, and at least 30px away from the edge of the screen. 
+<br /> **--- Modifications ---**<br /> 
+<br /> **On Hover:** The background becomes white and the icon and text (if applicable) become il-blue. The border remains the same.
+<br /> **On Focus:** The icon and text (if applicable) become il-blue and the background becomes il-arches-90. The border remains the same.
+<br /> **Expanded:** When the menu is expanded, the "menu" icon should be replaced with the official Illinois "exit" icon.
